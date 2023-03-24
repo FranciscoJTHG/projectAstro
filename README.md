@@ -43,6 +43,11 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`    | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro --help` | Get help using the Astro CLI                     |
 
+## Commands Docker
+
+docker build -t astro-image .
+docker run --name astro -it -v C:\Users\FjthielenG\Desktop\projectAstro:/app -v /app/node_modules/ -p 3000:3000 astro-image
+
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).

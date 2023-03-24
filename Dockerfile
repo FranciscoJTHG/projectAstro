@@ -2,7 +2,7 @@
 FROM node:lts-alpine
 
 #Creamos un directorio de trabajo
-RUN mkdir -p app
+#RUN mkdir -p app
 
 #Asignamos un espacio de trabajo
 WORKDIR /app
