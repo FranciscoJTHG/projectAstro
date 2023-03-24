@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Astro Starter Kit: Minimal
 
 ```
