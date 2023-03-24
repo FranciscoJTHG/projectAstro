@@ -1,29 +1,8 @@
-
 ---
-const title = 'Mi proyecto'
-const color = 'danger'
-
-const hobbies = ['Programafffffffffff', 'Leer', 'Escribir', 'Ver', 'Peliculas']
+import Layout from "./layouts/Layout.astro";
 ---
 
-<ul>
+<Layout>
+	<h1 class="text-4x1 text-red-400">Home Page</h1>
 
-	{hobbies.map(hobby => <li>{hobby}</li>)}
-</li>
-
-<script>
-	console.log('Hola Mundo');
-</script>
-<style>
-	.title {
-		color: blue
-	}
-
-	.warning {
-		color: color;
-	}
-
-	.danger {
-		color: red;
-	}
-</style>
+</Layout>
